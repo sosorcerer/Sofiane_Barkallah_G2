@@ -1,0 +1,123 @@
+
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de page */
+
+header.header1 {
+    display: flex;
+    align-items: center;    
+}
+
+
+header.header1 img {
+    width: 150px
+
+}
+
+section.top-page {
+    background: url('../img/fond\ flou\ S.png');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* page Welcome */
+
+.big-title {
+    color: white;
+    font-size: 80px;
+    padding: 100px 80px;
+}
+
+.contact {
+    color: white;
+    position: absolute;
+    bottom: 120px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+/* menu de navigation */
+
+
+nav.nav1 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+nav.nav1 li {
+    color: white;
+}
+
+/* Australie */
+
+.section-titre {
+    font-size: 40px;
+    position: relative;
+}
+
+.section-titre::before {
+   content: ''; 
+   position: absolute;
+   background-color: brown;
+   width: 50px;
+   height: 7px;
+   bottom: 0;
+}
+
+.Animm1 {
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+  }
+  
+.austra {
+    flex-direction: row-reverse;
+  }
+  
+.droit {
+      margin-left: 1%;
+  }
+
+
+.margin-top {
+  margin-left: 40%;
+  margin-top: 20%;
+  }
+
+.koko {
+    margin-top: 17%;
+}
+
+.margin2 {
+    margin-left: 40%;
+    margin-top: 20%;  
+}
+
+.kankan {
+    margin-top: 20%;
+}
+
+.lien a {
+    text-decoration: none;
+}
+
+.couleur-lien {
+    color: white;
+}
+
+.nav1 a {
+    text-decoration: none;
+}
+
+
